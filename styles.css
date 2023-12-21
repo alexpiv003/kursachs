@@ -1,0 +1,314 @@
+h1.title {
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #68767a;
+  color: white;
+  width: fit-content;
+  margin: 40px auto;
+  position: relative;
+  z-index: 2;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.body{
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-02/1676559420_catherineasquithgallery-com-p-zelenii-prirodnii-fon-227.jpg);
+}
+
+#tabs-container {
+  width: 30%;
+  margin: 10px auto;
+  position: relative;
+  z-index: 1;
+}
+
+#tabs {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.tabButton {
+  display: block;
+  min-width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #008CBA;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tab {
+  display: none;
+}
+
+.active {
+  background-color: #919191;
+}
+
+/* Добавьте стили для новых кнопок во вкладке "Загрузка оценок" */
+#uploadButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#uploadButtons label.btn,
+#uploadButtons button.btn {
+  margin: 10px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+#uploadButtons label.btn {
+  background-color: #008CBA;
+  color: rgb(255, 255, 255);
+}
+#uploadButtons label.btn:hover {
+  background-color: #ff8585;
+  transition: 0.5s;
+}
+
+#uploadButtons button.btn {
+  background-color: #008CBA;
+  color: white;
+}
+
+#uploadButtons button.btn:hover {
+  background-color: #ff8585;
+  transition: 0.5s;
+}
+
+#csvTable {
+  background-color: #00FFFF;;
+  display: none;
+  border-collapse: collapse;
+  width: 70%;
+  margin: 20px auto;
+}
+
+#csvTable th, #csvTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#csvTable th {
+  background-color: #ffffff;
+}
+
+#editTab{
+  margin-top: 70px;
+  margin-left: 10px;
+  position: relative;
+}
+
+#existingDataTable {
+  position: absolute;
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 20px;
+  margin-top: -1px; /* Отрицательный отступ сверху */
+}
+
+#existingDataTable th,
+#existingDataTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #00FFFF;;
+}
+
+#existingDataTable th {
+  background-color: #f2f2f2;
+}
+
+#studentInputContainer {
+  width: 50%;
+  margin-left: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+
+#studentInputContainer input {
+  width: 300px; /* Измените значение по вашему усмотрению */
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#studentInputContainer label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #00FFFF;;
+}
+
+#studentInputContainer input {
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#addStudentBtn {
+  margin-top: 10px;
+  margin-left: 90px;
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#addStudentBtn:hover {
+  background-color: #005684;
+  transition: 0.5s;
+}
+
+#applyChangesBtn {
+  margin-top: 15px;
+  margin-left: 73px;
+  padding: 10px;
+  background-color: #00ba5d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+#applyChangesBtn:hover {
+  background-color: rgba(32, 124, 94, 0.8);
+  transition: 0.5s;
+}
+
+
+#statsTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 70px;
+}
+
+#statsTable th, #statsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#statsTable th {
+  background-color: #f5f5f5;;
+}
+
+#statsTableBody{
+  background-color: #00ffff;
+}
+
+#myChart{
+  display: flex;
+  margin-top: -150px;
+  background-color: #fff;
+}
+
+/* Стили для блока помощи */
+/* Стили для контейнера блоков помощи */
+/* Стили для контейнера блоков помощи */
+.tab11 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+/* Стили для блока помощи */
+.help-block1,
+.help-block2,
+.help-block3,
+.help-block4 {
+  background-color: #fff;
+  border-radius: 70px;
+  border: 1px solid #008CBA;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px; /* Внутренний отступ блока */
+  width: 49.7%; /* Задаем ширину блока */
+  box-sizing: border-box; /* Учитываем толщину границы и внутренний отступ в размерах блока */
+}
+
+.help-block3,
+.help-block4 {
+  margin-top: 10px;
+}
+.help-block3,
+.help-block1 {
+  margin-right: 10px;
+}
+
+.tabButton:hover{
+  background-color: #005684;
+  transition: 0.5s;
+}
+.about_the_developer{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.about{
+  font-size: 25px;
+  padding-left: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  width: 550px;
+
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.avatar{
+  padding-left: 543px;
+  display: flex;
+  height: 400px;
+  width: 290px;
+  align-items: center;
+}
+
+
+
+
+
+
